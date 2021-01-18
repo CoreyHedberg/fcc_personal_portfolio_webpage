@@ -3,3 +3,16 @@
     corey@coreyhedberg.dev
     https://coreyhedberg.dev
 */
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  color: #00205b;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}

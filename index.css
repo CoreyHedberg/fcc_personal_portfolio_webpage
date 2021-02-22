@@ -5,7 +5,30 @@
 */
 
 body {
+  margin-top: 5em;
   font-family: "Roboto Slab", serif;
+}
+
+#navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px dashed green;
+}
+
+.nav-me {
+  font-size: 2.5em;
+  align-items: flex-start;
+}
+
+.nav-links {
+  font-size: 1em;
+  width: 8em;
+  border: 1px solid red;
+  align-self: center;
+  text-align: center;
 }
 
 a {
@@ -15,4 +38,23 @@ a {
 
 a:hover {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 6.5em;
+  }
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px dashed green;
+  }
+  .nav-me {
+    font-size: calc(2.5em * 0.8);
+  }
+  .nav-links {
+    font-size: calc(1em * 0.8);
+  }
 }

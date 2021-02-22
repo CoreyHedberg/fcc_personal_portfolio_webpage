@@ -10,6 +10,7 @@ body {
 }
 
 #navbar {
+  margin: 0;
   top: 0;
   position: fixed;
   width: 100%;
@@ -20,7 +21,10 @@ body {
 
 .nav-me {
   font-size: 2.5em;
-  align-items: flex-start;
+}
+
+#nav-about {
+  margin-left: auto;
 }
 
 .nav-links {

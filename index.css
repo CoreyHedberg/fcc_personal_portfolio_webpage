@@ -48,9 +48,14 @@ body {
 }
 
 #welcome-section {
-  background-image: url("./media/background.jpg");
+  background-image: url("./media/welcome_section_background.jpg");
   background-size: cover;
   height: 100vh;
+}
+
+#welcome-section > h1 {
+  font-size: 6em;
+  padding-top: 2em;
 }
 
 #welcome-section,

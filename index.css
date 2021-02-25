@@ -51,6 +51,7 @@ body {
   background-image: url("./media/welcome_section_background.jpg");
   background-size: cover;
   height: 100vh;
+  max-width: 100%;
 }
 
 #welcome-section > h1 {
@@ -62,6 +63,28 @@ body {
 #about-me {
   color: white;
   text-align: center;
+}
+
+#about-me {
+  background-image: url("./media/about_me_section_background.jpg");
+  padding: 0.5em 6em 0.5em 6em;
+  margin-top: 2em;
+  max-width: 100%;
+  height: auto;
+}
+
+#projects {
+  color: #ffffff;
+}
+
+.project-links {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-links:hover {
+  color: yellow;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {

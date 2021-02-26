@@ -66,15 +66,33 @@ body {
 }
 
 #about-me {
-  background-image: url("./media/about_me_section_background.jpg");
   padding: 0.5em 6em 0.5em 6em;
-  margin-top: 2em;
+  margin-top: 5em;
   max-width: 100%;
   height: auto;
 }
 
 #projects {
   color: #ffffff;
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 1em;
+}
+
+#projects-title {
+  grid-column: 1 / -1;
+}
+
+#about-title,
+#projects-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.project-tile {
+  text-align: center;
 }
 
 .project-links {
@@ -84,7 +102,11 @@ body {
 
 .project-links:hover {
   color: yellow;
-  font-weight: bold;
+}
+
+.project-thumbnail {
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,7 +118,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    border: 1px dashed green;
   }
   .nav-me {
     font-size: calc(2.5em * 0.8);

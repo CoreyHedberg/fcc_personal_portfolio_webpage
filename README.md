@@ -10,9 +10,9 @@ Click [here](https://coreyhedberg.github.io/personal_portfolio_webpage/) to view
 
 ## Summary
 
-<image src="readme_files/screenshot.png">
+<image src="readme_files/readme_screenshot.jpg">
 
-This website was written for the purposes of the Free Code Camp Responsive Web Design Certification "Build A Personal Portfolio Webpage" challenge.
+This website was written for the purposes of the Free Code Camp Responsive Web Design Certification "Build A Personal Portfolio Webpage" challenge. This project really brought together everything I have learned in the Responsive Web Design Certification track.
 
 ## Author
 
